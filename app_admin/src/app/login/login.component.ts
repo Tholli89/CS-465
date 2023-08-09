@@ -37,5 +37,4 @@ export class LoginComponent implements OnInit {
     .then(() => this.router.navigateByUrl('#'))
     .catch((message) => this.formError = message);
   }
-  
 }
